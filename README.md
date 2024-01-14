@@ -8,22 +8,22 @@ This document serves as an index for the various Proof of Concepts (POCs) develo
 
 This Go Proof of Concept (POC) demonstrates how to extract information from Windows NTUSER.DAT files using Go and PowerShell commands. NTUSER.DAT files are part of Windows user profiles and contain user-specific registry settings.
 
-- [DS0022/TS087.001](./DS0022/TS087.001): Account Discovery Technique
-  - This script is designed to demonstrate the Account Discovery technique. [Read more](./DS0022/TS087.001/readme.md).
+- [TA0007/TS087.001](./TA0007/TS087.001): Account Discovery Technique
+  - This script is designed to demonstrate the Account Discovery technique. [Read more](./TA0007/TS087.001/readme.md).
 
 ### Proof of Concept: Network Information Gathering Tool
 
 This Go program gathers network information from your system and displays it in JSON format. It provides details about network interfaces and ARP cache entries.
 
-- [DS0022/T0846](./DS0022/T0846): Network Information Gathering Tool
-  - This tool retrieves network interface and ARP cache information. [Read more](./DS0022/T0846/readme.md).
+- [TA0102/T0846](./TA0102/T0846): Network Information Gathering Tool
+  - This tool retrieves network interface and ARP cache information. [Read more](./TA0102/T0846/readme.md).
 
 ### Proof of Concept: Automated Collection
 
 This Go program monitors and logs keyboard and mouse input events on a Windows system. It captures keypresses and mouse clicks and saves them to an output file. Additionally, it can take screenshots when a mouse click event occurs.
 
-- [DS0022/T1119](./DS0022/T1119/readme.md): Automated Collection
-  - This tool demonstrates input monitoring techniques. [Read more](./DS0022/T1119/readme.md).
+- [TA0009/T1119](./TA0009/T1119/readme.md): Automated Collection
+  - This tool demonstrates input monitoring techniques. [Read more](./TA0009/T1119/readme.md).
 
 ## Contributing
 
