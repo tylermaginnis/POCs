@@ -40,3 +40,8 @@ The ARP Spoofing Demonstration Script showcases ARP (Address Resolution Protocol
 
 ARP spoofing is a significant cybersecurity concern, and network administrators should proactively protect their networks against such attacks.
 
+## License
+
+This project is licensed under the MIT License. Feel free to modify and use it as needed.
+
+**Please note:** This program is intended for educational and demonstration purposes. Use it responsibly and only on systems you have permission to access.
