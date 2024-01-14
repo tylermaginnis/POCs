@@ -35,6 +35,8 @@ This program will perform the following actions:
 
 3. The program will display the registry information it reads from each NTUSER.DAT file.
 
+4. The program will fail to display the registry information of the current user, due to file locking.
+
 ## Notes
 
 - This POC is designed for educational purposes and may need modification for production use.
