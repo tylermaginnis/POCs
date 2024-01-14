@@ -25,7 +25,7 @@ This Go program monitors and logs keyboard and mouse input events on a Windows s
 - [TA0009/T1119](./TA0009/T1119/readme.md): Automated Collection
   - This tool demonstrates input monitoring techniques. [Read more](./TA0009/T1119/readme.md).
 
-## Proof of Concept: LLMNR & NBT-NS Response Simulator
+### Proof of Concept: LLMNR & NBT-NS Response Simulator
 
 This Go program simulates responses for LLMNR and NBT-NS protocols. It listens on UDP ports 5355 (LLMNR) and 137 (NBT-NS) and constructs simulated response packets based on the respective protocol specifications.
 
