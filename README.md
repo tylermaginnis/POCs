@@ -39,10 +39,6 @@ The ARP Spoofing Demonstration Script showcases ARP spoofing by manipulating ARP
 - [TA0006/T1557.002](./TA0006/T1557.002): ARP Spoofing Demonstration Script
   - This script simulates ARP spoofing to demonstrate its potential impact on network security. [Read more](./TA0006/T1557.002/readme.md).
 
-## Contributing
-
-Please follow the [contribution guidelines](./CONTRIBUTING.md) to propose changes or add new POCs.
-
 ## Disclaimer
 
 All POCs in this repository are for educational and authorized testing purposes only. Ensure you have the necessary permissions before running any of these scripts.
