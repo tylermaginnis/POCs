@@ -18,6 +18,13 @@ This Go program gathers network information from your system and displays it in 
 - [DS0022/T0846](./DS0022/T0846): Network Information Gathering Tool
   - This tool retrieves network interface and ARP cache information. [Read more](./DS0022/T0846/readme.md).
 
+### Proof of Concept: Input Logger
+
+This Go program monitors and logs keyboard and mouse input events on a Windows system. It captures keypresses and mouse clicks and saves them to an output file. Additionally, it can take screenshots when a mouse click event occurs.
+
+- [DS0022/T1119](./DS0022/T1119/readme.md): Input Logger
+  - This tool demonstrates input monitoring techniques. [Read more](./DS0022/T1119/readme.md).
+
 ## Contributing
 
 Please follow the [contribution guidelines](./CONTRIBUTING.md) to propose changes or add new POCs.
