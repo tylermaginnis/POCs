@@ -4,6 +4,8 @@
 
 The Input Logger is a Go program designed to monitor and log keyboard and mouse input events on a Windows system. It captures keypresses and mouse clicks and saves them to an output file. Additionally, it can take screenshots when a mouse click event occurs.
 
+https://medium.com/@maginnist/unlocking-windows-automated-collection-a-deep-dive-into-the-automated-collection-poc-934587555b21
+
 ## Prerequisites
 
 Before using this tool, ensure that you have the following prerequisites:

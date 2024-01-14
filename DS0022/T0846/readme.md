@@ -4,6 +4,8 @@
 
 This Go program is designed to gather network information from your system and display it in JSON format. It provides details about network interfaces and ARP (Address Resolution Protocol) cache entries.
 
+https://medium.com/@maginnist/proof-of-concept-unlocking-network-insights-with-the-network-information-gathering-tool-5b626cb69857
+
 ## Prerequisites
 
 Before using this tool, ensure that you have the following prerequisites:
