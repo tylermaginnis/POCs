@@ -32,6 +32,13 @@ This Go program simulates responses for LLMNR and NBT-NS protocols. It listens o
 - [TA0006/T1557.001](./TA0006/T1557.001): LLMNR & NBT-NS Response Simulator
   - This tool simulates responses for LLMNR and NBT-NS protocols. [Read more](./TA0006/T1557.001/readme.md).
 
+### Proof of Concept: ARP Spoofing Demonstration Script
+
+The ARP Spoofing Demonstration Script showcases ARP spoofing by manipulating ARP messages within a controlled local network environment.
+
+- [TA0006/T1557.002](./TA0006/T1557.002): ARP Spoofing Demonstration Script
+  - This script simulates ARP spoofing to demonstrate its potential impact on network security.
+
 ## Contributing
 
 Please follow the [contribution guidelines](./CONTRIBUTING.md) to propose changes or add new POCs.
