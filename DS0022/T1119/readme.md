@@ -1,4 +1,4 @@
-# Input Logger
+# Automated Collection
 
 ## Overview
 
