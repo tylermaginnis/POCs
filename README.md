@@ -37,7 +37,7 @@ This Go program simulates responses for LLMNR and NBT-NS protocols. It listens o
 The ARP Spoofing Demonstration Script showcases ARP spoofing by manipulating ARP messages within a controlled local network environment.
 
 - [TA0006/T1557.002](./TA0006/T1557.002): ARP Spoofing Demonstration Script
-  - This script simulates ARP spoofing to demonstrate its potential impact on network security.
+  - This script simulates ARP spoofing to demonstrate its potential impact on network security. [Read more](./TA0006/T1557.002/readme.md).
 
 ## Contributing
 
