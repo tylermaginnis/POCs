@@ -2,6 +2,8 @@
 
 This Go Proof of Concept (POC) demonstrates how to extract information from Windows NTUSER.DAT files using Go and PowerShell commands. NTUSER.DAT files are part of Windows user profiles and contain user-specific registry settings.
 
+https://medium.com/@maginnist/uncovering-secrets-exploring-windows-ntuser-dat-with-golang-322c48c05fcf
+
 ## Prerequisites
 
 Before running the POC, ensure that you have the following prerequisites installed:
