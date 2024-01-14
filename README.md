@@ -11,6 +11,13 @@ This Go Proof of Concept (POC) demonstrates how to extract information from Wind
 - [DS0022/TS087.001](./DS0022/TS087.001): Account Discovery Technique
   - This script is designed to demonstrate the Account Discovery technique. [Read more](./DS0022/TS087.001/readme.md).
 
+### Proof of Concept: Network Information Gathering Tool
+
+This Go program gathers network information from your system and displays it in JSON format. It provides details about network interfaces and ARP cache entries.
+
+- [DS0022/T0846](./DS0022/T0846): Network Information Gathering Tool
+  - This tool retrieves network interface and ARP cache information. [Read more](./DS0022/T0846/readme.md).
+
 ## Contributing
 
 Please follow the [contribution guidelines](./CONTRIBUTING.md) to propose changes or add new POCs.
