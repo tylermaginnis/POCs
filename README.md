@@ -4,8 +4,12 @@ This document serves as an index for the various Proof of Concepts (POCs) develo
 
 ## List of POCs
 
-- [DS0022](./DS0022): Sensitive File Creation and Cleanup Script
-  - This script is designed to create and then clean up random files in sensitive directories for cybersecurity testing purposes. [Read more](./DS0022/readme.md).
+### Proof of Concept: NTUSER.DAT Registry Extractor
+
+This Go Proof of Concept (POC) demonstrates how to extract information from Windows NTUSER.DAT files using Go and PowerShell commands. NTUSER.DAT files are part of Windows user profiles and contain user-specific registry settings.
+
+- [DS0022/TS087.001](./DS0022/TS087.001): Account Discovery Technique
+  - This script is designed to demonstrate the Account Discovery technique based on MITRE ATT&CK. [Read more](./DS0022/TS087.001/readme.md).
 
 ## Contributing
 
@@ -21,5 +25,4 @@ MIT 3.0
 
 ---
 
-For any queries or contributions, please contact [Your Contact Information or GitHub Handle].
-
+For any queries or contributions, please contact via GH.
