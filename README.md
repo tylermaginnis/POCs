@@ -8,8 +8,8 @@ This document serves as an index for the various Proof of Concepts (POCs) develo
 
 This Go Proof of Concept (POC) demonstrates how to extract information from Windows NTUSER.DAT files using Go and PowerShell commands. NTUSER.DAT files are part of Windows user profiles and contain user-specific registry settings.
 
-- [TA0007/TS087.001](./TA0007/TS087.001): Account Discovery Technique
-  - This script is designed to demonstrate the Account Discovery technique. [Read more](./TA0007/TS087.001/readme.md).
+- [TA0007/TS087.001](./TA0007/T087.001): Account Discovery Technique
+  - This script is designed to demonstrate the Account Discovery technique. [Read more](./TA0007/T087.001/readme.md).
 
 ### Proof of Concept: Network Information Gathering Tool
 
