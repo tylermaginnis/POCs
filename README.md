@@ -46,6 +46,12 @@ This program demonstrates DHCP spoofing by listening for DHCP DISCOVER packets a
 - [TA0006/T1557.003](./TA0006/T1557.003): DHCP Spoofing
   - This Go program showcases DHCP spoofing for educational and research purposes. [Read more](./TA0006/T1557.003/readme.md).
 
+### Proof of Concept: Network Knocking
+Network knocking, also known as port knocking, is a security practice with significant cybersecurity implications. This technique involves sending a sequence of connection attempts to predefined closed ports on a networked device, effectively serving as a digital secret handshake to access specific services. In this readme, we'll explore the concept of network knocking, its importance in cybersecurity, and how it can be employed both defensively and potentially exploitatively.
+
+- [TA0003/T1205.001](./TA0003/T1205.001): Network Knocking
+  - This script demonstrates network knocking, a cybersecurity technique that conceals open ports and controls access to services. [Read more](./TA0003/T1205.001).
+
 ## Disclaimer
 
 All POCs in this repository are for educational and authorized testing purposes only. Ensure you have the necessary permissions before running any of these scripts.
