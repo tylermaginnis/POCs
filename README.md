@@ -39,6 +39,13 @@ The ARP Spoofing Demonstration Script showcases ARP spoofing by manipulating ARP
 - [TA0006/T1557.002](./TA0006/T1557.002): ARP Spoofing Demonstration Script
   - This script simulates ARP spoofing to demonstrate its potential impact on network security. [Read more](./TA0006/T1557.002/readme.md).
 
+### Proof of Concept: DHCP Spoofing
+
+This program demonstrates DHCP spoofing by listening for DHCP DISCOVER packets and sending malicious DHCP OFFER responses.
+
+- [TA0006/T1557.003](./TA0006/T1557.003): DHCP Spoofing
+  - This Go program showcases DHCP spoofing for educational and research purposes. [Read more](./TA0006/T1557.003/readme.md).
+
 ## Disclaimer
 
 All POCs in this repository are for educational and authorized testing purposes only. Ensure you have the necessary permissions before running any of these scripts.
