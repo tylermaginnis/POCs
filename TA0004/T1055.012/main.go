@@ -419,7 +419,7 @@ func main() {
 				}
 
 				if response == "Y" || response == "y" {
-					filePath := "asm/x64/payload.exe"
+					filePath := "asm/x64/payload.exe.bin"
 					codePageAddress, err := AddCodePageFromFile(processID, filePath)
 					fmt.Println(codePageAddress)
 					if err != nil {
