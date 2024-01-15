@@ -8,7 +8,13 @@ This document serves as an index for the various Proof of Concepts (POCs) develo
 Network knocking, also known as port knocking, is a security practice with significant cybersecurity implications. This technique involves sending a sequence of connection attempts to predefined closed ports on a networked device, effectively serving as a digital secret handshake to access specific services. In this readme, we'll explore the concept of network knocking, its importance in cybersecurity, and how it can be employed both defensively and potentially exploitatively.
 
 - [TA0003/T1205.001](./TA0003/T1205.001): Network Knocking
-  - This script demonstrates network knocking, a cybersecurity technique that conceals open ports and controls access to services. [Read more](./TA0003/T1205.001).
+  - This script demonstrates network knocking, a cybersecurity technique that conceals open ports and controls access to services. [Read more](./TA0003/T1205.001/readme.md).
+
+### Proof of Concept: Socket Filtering
+Socket filtering techniques play a crucial role in network security, offering both defensive and offensive capabilities. This section explores the defensive use of socket filtering with `main.go` and the offensive perspective with `knocker.go`. 
+
+- [TA0003/T1205.002](./TA0003/T1205.002): Socket Filtering
+  - This section covers socket filtering techniques, their applications, and the implementation details of defensive and offensive scripts. [Read more](./TA0003/T1205.002/readme.md).
 
 ### Proof of Concept: LLMNR & NBT-NS Response Simulator
 
@@ -30,6 +36,7 @@ This program demonstrates DHCP spoofing by listening for DHCP DISCOVER packets a
 
 - [TA0006/T1557.003](./TA0006/T1557.003): DHCP Spoofing
   - This Go program showcases DHCP spoofing for educational and research purposes. [Read more](./TA0006/T1557.003/readme.md).
+  - 
 ### Proof of Concept: NTUSER.DAT Registry Extractor
 
 This Go Proof of Concept (POC) demonstrates how to extract information from Windows NTUSER.DAT files using Go and PowerShell commands. NTUSER.DAT files are part of Windows user profiles and contain user-specific registry settings.
