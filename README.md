@@ -4,26 +4,11 @@ This document serves as an index for the various Proof of Concepts (POCs) develo
 
 ## List of POCs
 
-### Proof of Concept: NTUSER.DAT Registry Extractor
+### Proof of Concept: Network Knocking
+Network knocking, also known as port knocking, is a security practice with significant cybersecurity implications. This technique involves sending a sequence of connection attempts to predefined closed ports on a networked device, effectively serving as a digital secret handshake to access specific services. In this readme, we'll explore the concept of network knocking, its importance in cybersecurity, and how it can be employed both defensively and potentially exploitatively.
 
-This Go Proof of Concept (POC) demonstrates how to extract information from Windows NTUSER.DAT files using Go and PowerShell commands. NTUSER.DAT files are part of Windows user profiles and contain user-specific registry settings.
-
-- [TA0007/T087.001](./TA0007/T087.001): Account Discovery Technique
-  - This script is designed to demonstrate the Account Discovery technique. [Read more](./TA0007/T087.001/readme.md).
-
-### Proof of Concept: Network Information Gathering Tool
-
-This Go program gathers network information from your system and displays it in JSON format. It provides details about network interfaces and ARP cache entries.
-
-- [TA0102/T0846](./TA0102/T0846): Network Information Gathering Tool
-  - This tool retrieves network interface and ARP cache information. [Read more](./TA0102/T0846/readme.md).
-
-### Proof of Concept: Automated Collection
-
-This Go program monitors and logs keyboard and mouse input events on a Windows system. It captures keypresses and mouse clicks and saves them to an output file. Additionally, it can take screenshots when a mouse click event occurs.
-
-- [TA0009/T1119](./TA0009/T1119/readme.md): Automated Collection
-  - This tool demonstrates input monitoring techniques. [Read more](./TA0009/T1119/readme.md).
+- [TA0003/T1205.001](./TA0003/T1205.001): Network Knocking
+  - This script demonstrates network knocking, a cybersecurity technique that conceals open ports and controls access to services. [Read more](./TA0003/T1205.001).
 
 ### Proof of Concept: LLMNR & NBT-NS Response Simulator
 
@@ -45,12 +30,26 @@ This program demonstrates DHCP spoofing by listening for DHCP DISCOVER packets a
 
 - [TA0006/T1557.003](./TA0006/T1557.003): DHCP Spoofing
   - This Go program showcases DHCP spoofing for educational and research purposes. [Read more](./TA0006/T1557.003/readme.md).
+### Proof of Concept: NTUSER.DAT Registry Extractor
 
-### Proof of Concept: Network Knocking
-Network knocking, also known as port knocking, is a security practice with significant cybersecurity implications. This technique involves sending a sequence of connection attempts to predefined closed ports on a networked device, effectively serving as a digital secret handshake to access specific services. In this readme, we'll explore the concept of network knocking, its importance in cybersecurity, and how it can be employed both defensively and potentially exploitatively.
+This Go Proof of Concept (POC) demonstrates how to extract information from Windows NTUSER.DAT files using Go and PowerShell commands. NTUSER.DAT files are part of Windows user profiles and contain user-specific registry settings.
 
-- [TA0003/T1205.001](./TA0003/T1205.001): Network Knocking
-  - This script demonstrates network knocking, a cybersecurity technique that conceals open ports and controls access to services. [Read more](./TA0003/T1205.001).
+- [TA0007/T087.001](./TA0007/T087.001): Account Discovery Technique
+  - This script is designed to demonstrate the Account Discovery technique. [Read more](./TA0007/T087.001/readme.md).
+
+### Proof of Concept: Automated Collection
+
+This Go program monitors and logs keyboard and mouse input events on a Windows system. It captures keypresses and mouse clicks and saves them to an output file. Additionally, it can take screenshots when a mouse click event occurs.
+
+- [TA0009/T1119](./TA0009/T1119/readme.md): Automated Collection
+  - This tool demonstrates input monitoring techniques. [Read more](./TA0009/T1119/readme.md).
+
+### Proof of Concept: Network Information Gathering Tool
+
+This Go program gathers network information from your system and displays it in JSON format. It provides details about network interfaces and ARP cache entries.
+
+- [TA0102/T0846](./TA0102/T0846): Network Information Gathering Tool
+  - This tool retrieves network interface and ARP cache information. [Read more](./TA0102/T0846/readme.md).
 
 ## Disclaimer
 
