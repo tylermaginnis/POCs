@@ -2,6 +2,8 @@
 
 This Go script allows you to perform various memory manipulation operations on a target Windows process. It uses Windows API functions to suspend, rewrite, and execute code within the target process's memory. This can be useful for various debugging and security analysis tasks.
 
+https://medium.com/@maginnist/exploring-golang-process-manipulation-with-wmi-event-subscription-and-w32-api-bfd621da47fd
+
 ## Prerequisites
 
 Before you can use this script, make sure you have the following prerequisites:
