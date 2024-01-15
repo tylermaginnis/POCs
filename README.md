@@ -36,7 +36,7 @@ This program demonstrates DHCP spoofing by listening for DHCP DISCOVER packets a
 
 - [TA0006/T1557.003](./TA0006/T1557.003): DHCP Spoofing
   - This Go program showcases DHCP spoofing for educational and research purposes. [Read more](./TA0006/T1557.003/readme.md).
-  - 
+
 ### Proof of Concept: NTUSER.DAT Registry Extractor
 
 This Go Proof of Concept (POC) demonstrates how to extract information from Windows NTUSER.DAT files using Go and PowerShell commands. NTUSER.DAT files are part of Windows user profiles and contain user-specific registry settings.
