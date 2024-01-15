@@ -4,6 +4,8 @@
 
 The ARP Spoofing Demonstration Script showcases ARP (Address Resolution Protocol) spoofing by manipulating ARP messages within a controlled local network environment. It is designed to provide insight into ARP spoofing and its potential impact on network security. Please use this script responsibly and in an ethical manner.
 
+https://medium.com/@maginnist/demystifying-arp-spoofing-a-man-in-the-middle-attack-demonstration-dfa4aa941997
+
 ## Demonstration
 
 1. Run the script to observe ARP spoofing in action.

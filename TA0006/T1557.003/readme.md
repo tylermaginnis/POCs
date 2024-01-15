@@ -2,6 +2,8 @@
 
 This Go program is a proof of concept for DHCP spoofing. It demonstrates how to listen for DHCP DISCOVER packets on UDP port 67 and respond with a malicious DHCP OFFER packet.
 
+https://medium.com/@maginnist/proof-of-concept-a-comprehensive-guide-to-dhcp-spoofing-with-golang-bc21f77572c2
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)

@@ -2,6 +2,8 @@
 
 The UDP Response Simulator is a Go program designed to simulate responses for LLMNR (Link-Local Multicast Name Resolution) and NBT-NS (NetBIOS Name Service) protocols. It listens on specific UDP ports and sends simulated responses to incoming requests.
 
+https://medium.com/@maginnist/in-depth-analysis-of-llmnr-and-nbt-ns-response-simulator-428c2f181b4d
+
 ## Usage
 
 1. Clone or download the project.
