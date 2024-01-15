@@ -16,6 +16,12 @@ Socket filtering techniques play a crucial role in network security, offering bo
 - [TA0003/T1205.002](./TA0003/T1205.002): Socket Filtering
   - This section covers socket filtering techniques, their applications, and the implementation details of defensive and offensive scripts. [Read more](./TA0003/T1205.002/readme.md).
 
+### Proof of Concept: Process Hollowing
+Process memory manipulation is a powerful technique with significant cybersecurity implications. This Go script allows you to interact with and manipulate the memory of Windows processes. It offers operations such as suspending a process, rewriting its memory with NOP instructions, appending NOP instructions, appending code from a file, resuming the process, and executing custom code within a process. Each operation has its significance in terms of cybersecurity and debugging.
+
+- [TA0004/T1055.012](./TA0004/T1055.012): Process Memory Manipulation
+  - This script demonstrates process memory manipulation techniques with cybersecurity implications. [Read more](./TA0004/T1055.012/readme.md).
+
 ### Proof of Concept: LLMNR & NBT-NS Response Simulator
 
 This Go program simulates responses for LLMNR and NBT-NS protocols. It listens on UDP ports 5355 (LLMNR) and 137 (NBT-NS) and constructs simulated response packets based on the respective protocol specifications.
