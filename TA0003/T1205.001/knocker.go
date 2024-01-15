@@ -18,7 +18,7 @@ func main() {
 
     ports := make([]string, 3)
     for i := 0; i < 3; i++ {
-        fmt.Printf("Enter port number %d to knock on: ", i+1)
+        fmt.Printf("#%d: Enter port number to knock on: ", i+1)
         port, _ := reader.ReadString('\n')
         ports[i] = strings.TrimSpace(port)
     }
